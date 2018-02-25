@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title></title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-push-2">
+          <div id="h1container">
+    	<h1>EtherTag</h1>
+    </div>
+
+          <hr/>
+          <br/>
+        </div>
+      </div>
+
+      <div id ="cloudDiv">
+        <div id="background-wrap">
+          <div class="x1">
+            <div class="cloud"></div>
+          </div>
+
+          <div class="x2">
+            <div class="cloud"></div>
+          </div>
+
+          <div class="x3">
+            <div class="cloud"></div>
+          </div>
+
+          <div class="x4">
+            <div class="cloud"></div>
+          </div>
+
+          <div class="x5">
+            <div class="cloud"></div>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="petsRow" class="row">
+        <div class="col-sm-6 col-sm-push-3 col-md-4 col-md-push-4">
+          <div class="panel panel-default">
+            <div class="panel-body">
+
+               <span id="TTBalance"></span> <br/><br/>
+              <input type="text" class="form-control hider" id="TTTransferAddress" placeholder="Address" />
+              <input type="text" value="1" style="display:none;" class="form-control hider" id="TTTransferAmount" placeholder="1" />
+              <button style="margin-top: 3px;" class="btn btn-primary hider" id="transferButton" type="button">Tag</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="nothing">
+      </div>
+
+    <div id="container1">
+      <div id="grass">
+        <div class="circle" style="float:right; margin-right: 10px; margin-top:30px;">0x65a95833686A21Aeeaa3a0319dFe3C023585DB0E </div>
+        <div class="circle" style="float:left; margin-left: 100px; margin-top:100px;">0x2f0e8FdF3fa35c0b1B937CFcd4348b8392B6EecA </div>
+        <div class="circle" style="float: right; margin-right: 233px; margin-top:134px;">0x438909FcA664fA780d27d26606d9815236d7827F </div>
+        <div class="circle" style="float:left; margin-left: 10px; margin-top:30px;">0xE7e0614253EF9854Dc7Be23cF79B5d3452e2B148 </div>
+      </div>
+    </div>
+
+    <div id="footy">
+      <span style="text-align: left;">
+        <p>Tyler Hargreaves</p>
+        <p>UTD Hack 2018</p>
+      </span>
+      <span syle="text-align:right">
+        <p><a href="http://tyharg.com">tyharg.com</a></p>
+        <p><a href="http://github.com/tyharg">Github</a></p>
+        </span>
+
+
+</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
